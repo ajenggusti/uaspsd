@@ -13,8 +13,8 @@ except Exception as e:
 
 # Define columns_order globally
 # columns_order = ['LBE', 'LB', 'AC', 'ASTV', 'mSTV', 'ALTV', 'MLTV', 'DP', 'Width', 'Min', 'Max', 'Mode', 'Mean', 'Median', 'Variance']
-columns_order = ['LBE',	'LB',	'AC',	'FM',	'UC',	'ASTV',	'MSTV',	'ALTV',	'MLTV',	'DL',	'DP',	'Width', 'Min', 'Max',	'Nmax',	'Mode',	'Mean',	'Median',	'Variance',	'Tendency']
-
+columns_order = ['LBE'	'LB'	'AC'	'ASTV'	'MSTV'	'ALTV'	'MLTV'	'DP'	'Width'	'Min'	'Max'	'Mode'	'Mean'	'Median'	'Variance']
+	
 # Function to preprocess input data
 def preprocess_input(data):
     df = pd.DataFrame([data], columns=columns_order)  # Use a list to create a single-row DataFrame

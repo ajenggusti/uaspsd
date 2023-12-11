@@ -13,7 +13,7 @@ except Exception as e:
 
 # Define columns_order globally
 # columns_order = ['LBE', 'LB', 'AC', 'ASTV', 'mSTV', 'ALTV', 'MLTV', 'DP', 'Width', 'Min', 'Max', 'Mode', 'Mean', 'Median', 'Variance']
-columns_order = ['LBE'	'LB'	'AC'	'ASTV'	'MSTV'	'ALTV'	'MLTV'	'DP'	'Width'	'Min'	'Max'	'Mode'	'Mean'	'Median'	'Variance']
+columns_order = ['LBE',	'LB',	'AC',	'ASTV',	'MSTV',	'ALTV',	'MLTV',	'DP',	'Width',	'Min',	'Max',	'Mode',	'Mean',	'Median',	'Variance']
 	
 # Function to preprocess input data
 def preprocess_input(data):
